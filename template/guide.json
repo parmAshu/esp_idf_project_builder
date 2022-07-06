@@ -1,0 +1,48 @@
+{
+    "files" :
+    [
+        {
+            "template_name" : ".gitignore",
+            "dest_name" : ".gitignore",
+            "edit" : []
+        },
+
+        {
+            "template_name" : ".gitmodules",
+            "dest_name" : ".gitmodules",
+            "edit" : []
+        },
+
+        {
+            "template_name" : "app_main.c",
+            "dest_name" : "main/app_main.c",
+            "edit" : []
+        },
+
+        {
+            "template_name" : "CMakeLists_toplevel.txt",
+            "dest_name" : "CMakeLists.txt",
+            "edit" : [
+                [ "!!**PROJECT_NAME**!!", "project_name" ]
+            ]
+        },
+
+        {
+            "template_name" : "CMakeLists.txt",
+            "dest_name" : "main/CMakeLists.txt",
+            "edit" : []
+        },
+
+        {
+            "template_name" : "setup.sh",
+            "dest_name" : "setup.sh",
+            "edit" : []
+        },
+
+        {
+            "template_name" : "setup.bat",
+            "dest_name" : "setup.bat",
+            "edit" : []
+        }
+    ]
+}
